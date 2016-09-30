@@ -1,0 +1,13 @@
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0"
+          xmlns:form="http://www.springframework.org/tags/form">
+    <html>
+    <head><title>welcome</title></head>
+    <body>
+    <form:form>
+        <input type="hidden" name="_flowExecutionKey" value="${flowExecutionKey}"/>
+        <input type="text" name="phoneNumber"/><br/>
+        <input type="submit" name="_ewentId_phoneEntered" value="odszukajKlienta"/>
+    </form:form>
+    </body>
+    </html>
+</jsp:root>

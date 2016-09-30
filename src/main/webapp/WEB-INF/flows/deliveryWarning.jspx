@@ -1,0 +1,12 @@
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+    <html>
+    <head><title>Delivery</title></head>
+    <body>
+    Dostawa niemożliwa
+    <![CDATA[
+    <a href="${flowExecutionUrl}&_eventId=accept"> odbiorę osobiście</a><br/>
+    <a href="${flowExecutionUrl}&_eventId=cancel"> anuluj</a>]]>
+    </body>
+    </html>
+</jsp:root>
